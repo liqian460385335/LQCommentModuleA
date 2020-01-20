@@ -1,0 +1,6 @@
+framework module Pods_LQCommentModuleA_LQCommentModuleAUITests {
+  umbrella header "Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

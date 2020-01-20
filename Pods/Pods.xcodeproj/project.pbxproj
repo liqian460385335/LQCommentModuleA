@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A844654B2A1D8A6EA1D0A1291F8A79 /* Pods-LQCommentModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D015B7CE793529DD82B036EF34A39 /* Pods-LQCommentModuleA-dummy.m */; };
+		32CBF2B5AC225E0113534870E9B12C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62DA3794299A448C21FE4DE9B8272BF5 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418795A822E6051EEB3FF817BAECC675 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m */; };
+		8064FA3CC542C6DA063A210A842408EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93B797F1C4DB8934688A720577A91CA5 /* Pods-LQCommentModuleA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4ACDB83918B556897AF3F818D88277 /* Pods-LQCommentModuleA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDA96B2E3E51EA8D9398987885C9C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD3BDF69643162DE071156E5BE34973D /* Pods-LQCommentModuleATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E0456853518F3F594999A4352F6524 /* Pods-LQCommentModuleATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CDB3C191B3A055830C0C3A6769288B /* Pods-LQCommentModuleATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2FC2342D5C5B0CDC3664D700B77199 /* Pods-LQCommentModuleATests-dummy.m */; };
+		D39F00904035CA603EDCA5C02559C98A /* Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1916E47409AD450A58FD26B73C27BB3 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1804F178998BBB5FE8CAF813ED7BAD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F86D9619B520DA89CA0F82E5EA19388C;
+			remoteInfo = "Pods-LQCommentModuleA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F35A0676517F02EE705E5558446104 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1DB02CEE5D42649E53C592314D395D /* Pods-LQCommentModuleA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleA-acknowledgements.plist"; sourceTree = "<group>"; };
+		15A57BC84DE181956C132E023FADA29F /* Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B551436DB9E8659ADE26EEDADAE8C84 /* Pods-LQCommentModuleATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleATests.debug.xcconfig"; sourceTree = "<group>"; };
+		26794ECCAE7026F1599056FD99072CC2 /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LQCommentModuleA_LQCommentModuleAUITests.framework; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A2F580EFF4D865F6F5430359F42913A /* Pods-LQCommentModuleA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleA-Info.plist"; sourceTree = "<group>"; };
+		3B2FC2342D5C5B0CDC3664D700B77199 /* Pods-LQCommentModuleATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LQCommentModuleATests-dummy.m"; sourceTree = "<group>"; };
+		418795A822E6051EEB3FF817BAECC675 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m"; sourceTree = "<group>"; };
+		4AEE024C28A9C6C9CFF879A326185109 /* Pods_LQCommentModuleATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LQCommentModuleATests.framework; path = "Pods-LQCommentModuleATests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524D015B7CE793529DD82B036EF34A39 /* Pods-LQCommentModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LQCommentModuleA-dummy.m"; sourceTree = "<group>"; };
+		5C447F395CE51D327A170B1038EDF2BA /* Pods-LQCommentModuleATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleATests.release.xcconfig"; sourceTree = "<group>"; };
+		5E0C3DED3541512287B64F439CBEAF5B /* Pods-LQCommentModuleA-LQCommentModuleAUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests-Info.plist"; sourceTree = "<group>"; };
+		5F4E3821FB2C4397472A755BA13266B9 /* Pods-LQCommentModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleA.release.xcconfig"; sourceTree = "<group>"; };
+		62E0456853518F3F594999A4352F6524 /* Pods-LQCommentModuleATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LQCommentModuleATests-umbrella.h"; sourceTree = "<group>"; };
+		63FC97B4DCB1742968AF333669665676 /* Pods-LQCommentModuleATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LQCommentModuleATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B76FA3FB1AD615D09E9774BC132571B /* Pods-LQCommentModuleATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A320FEF88C78123DF3A45F4158E288E /* Pods-LQCommentModuleA-LQCommentModuleAUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests.modulemap"; sourceTree = "<group>"; };
+		83131E5CBFBC235A85F2112030E4D187 /* Pods-LQCommentModuleATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LQCommentModuleATests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1916E47409AD450A58FD26B73C27BB3 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h"; sourceTree = "<group>"; };
+		C1AAF128BCCCE6D34351346C37EEEBBA /* Pods-LQCommentModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleA.debug.xcconfig"; sourceTree = "<group>"; };
+		C8BEDDF5910600642958EAEADBC5876C /* Pods-LQCommentModuleATests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleATests-Info.plist"; sourceTree = "<group>"; };
+		CC861E53AA6AB683C98107BF235E8A56 /* Pods-LQCommentModuleA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LQCommentModuleA.modulemap"; sourceTree = "<group>"; };
+		DF4ACDB83918B556897AF3F818D88277 /* Pods-LQCommentModuleA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LQCommentModuleA-umbrella.h"; sourceTree = "<group>"; };
+		E283B16E74C12B0E69ABEB087E13379C /* Pods_LQCommentModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LQCommentModuleA.framework; path = "Pods-LQCommentModuleA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EFA994E70A8448B58BAB0497B1AF14 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE5ED53BB6133E632E29738CBCED1569 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF5C9AC2B406F063BED1CAD8B6B96358 /* Pods-LQCommentModuleA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LQCommentModuleA-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA76D11F2C5294A529E9FFE7EA39B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CBF2B5AC225E0113534870E9B12C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3A6649F2114D2590CC15C9B549248C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDA96B2E3E51EA8D9398987885C9C0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AD2D9E5B3744F89408718D04AACB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8064FA3CC542C6DA063A210A842408EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029C46D5EB08DAD105EE1939FE1C6044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E283B16E74C12B0E69ABEB087E13379C /* Pods_LQCommentModuleA.framework */,
+				26794ECCAE7026F1599056FD99072CC2 /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */,
+				4AEE024C28A9C6C9CFF879A326185109 /* Pods_LQCommentModuleATests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420FB63E7FEAE3CF93FB9977EFDA75A5 /* Pods-LQCommentModuleATests */ = {
+			isa = PBXGroup;
+			children = (
+				83131E5CBFBC235A85F2112030E4D187 /* Pods-LQCommentModuleATests.modulemap */,
+				63FC97B4DCB1742968AF333669665676 /* Pods-LQCommentModuleATests-acknowledgements.markdown */,
+				6B76FA3FB1AD615D09E9774BC132571B /* Pods-LQCommentModuleATests-acknowledgements.plist */,
+				3B2FC2342D5C5B0CDC3664D700B77199 /* Pods-LQCommentModuleATests-dummy.m */,
+				C8BEDDF5910600642958EAEADBC5876C /* Pods-LQCommentModuleATests-Info.plist */,
+				62E0456853518F3F594999A4352F6524 /* Pods-LQCommentModuleATests-umbrella.h */,
+				1B551436DB9E8659ADE26EEDADAE8C84 /* Pods-LQCommentModuleATests.debug.xcconfig */,
+				5C447F395CE51D327A170B1038EDF2BA /* Pods-LQCommentModuleATests.release.xcconfig */,
+			);
+			name = "Pods-LQCommentModuleATests";
+			path = "Target Support Files/Pods-LQCommentModuleATests";
+			sourceTree = "<group>";
+		};
+		4CF5017A7B1C46F38A51AC4A4CC3C2B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DB9B5902C44FE8DBA1082BD87833BB /* Pods-LQCommentModuleA */,
+				F1BBBA6A6867648B4E7558A6B84C3A5D /* Pods-LQCommentModuleA-LQCommentModuleAUITests */,
+				420FB63E7FEAE3CF93FB9977EFDA75A5 /* Pods-LQCommentModuleATests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60DB9B5902C44FE8DBA1082BD87833BB /* Pods-LQCommentModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				CC861E53AA6AB683C98107BF235E8A56 /* Pods-LQCommentModuleA.modulemap */,
+				FF5C9AC2B406F063BED1CAD8B6B96358 /* Pods-LQCommentModuleA-acknowledgements.markdown */,
+				0F1DB02CEE5D42649E53C592314D395D /* Pods-LQCommentModuleA-acknowledgements.plist */,
+				524D015B7CE793529DD82B036EF34A39 /* Pods-LQCommentModuleA-dummy.m */,
+				3A2F580EFF4D865F6F5430359F42913A /* Pods-LQCommentModuleA-Info.plist */,
+				DF4ACDB83918B556897AF3F818D88277 /* Pods-LQCommentModuleA-umbrella.h */,
+				C1AAF128BCCCE6D34351346C37EEEBBA /* Pods-LQCommentModuleA.debug.xcconfig */,
+				5F4E3821FB2C4397472A755BA13266B9 /* Pods-LQCommentModuleA.release.xcconfig */,
+			);
+			name = "Pods-LQCommentModuleA";
+			path = "Target Support Files/Pods-LQCommentModuleA";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				029C46D5EB08DAD105EE1939FE1C6044 /* Products */,
+				4CF5017A7B1C46F38A51AC4A4CC3C2B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1BBBA6A6867648B4E7558A6B84C3A5D /* Pods-LQCommentModuleA-LQCommentModuleAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A320FEF88C78123DF3A45F4158E288E /* Pods-LQCommentModuleA-LQCommentModuleAUITests.modulemap */,
+				15A57BC84DE181956C132E023FADA29F /* Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.markdown */,
+				F4EFA994E70A8448B58BAB0497B1AF14 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-acknowledgements.plist */,
+				418795A822E6051EEB3FF817BAECC675 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m */,
+				5E0C3DED3541512287B64F439CBEAF5B /* Pods-LQCommentModuleA-LQCommentModuleAUITests-Info.plist */,
+				B1916E47409AD450A58FD26B73C27BB3 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h */,
+				08F35A0676517F02EE705E5558446104 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */,
+				FE5ED53BB6133E632E29738CBCED1569 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */,
+			);
+			name = "Pods-LQCommentModuleA-LQCommentModuleAUITests";
+			path = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82642D2B3A253770E769A2A340AEFCDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3BDF69643162DE071156E5BE34973D /* Pods-LQCommentModuleATests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0BAF6D478F670214C8B25460860989 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39F00904035CA603EDCA5C02559C98A /* Pods-LQCommentModuleA-LQCommentModuleAUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C7C796A37FCBB8226F0D3E3627B220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B797F1C4DB8934688A720577A91CA5 /* Pods-LQCommentModuleA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D1E8416ADE75F6A1D99D41ED17385C0 /* Pods-LQCommentModuleA-LQCommentModuleAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE60E595A382E83296DE2A3082406D9 /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleA-LQCommentModuleAUITests" */;
+			buildPhases = (
+				9E0BAF6D478F670214C8B25460860989 /* Headers */,
+				BA93D26D38E107C7D2A7A2B28EB97264 /* Sources */,
+				9C3A6649F2114D2590CC15C9B549248C /* Frameworks */,
+				85FD070C41653FF0354EA40171D628CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LQCommentModuleA-LQCommentModuleAUITests";
+			productName = "Pods-LQCommentModuleA-LQCommentModuleAUITests";
+			productReference = 26794ECCAE7026F1599056FD99072CC2 /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F86D9619B520DA89CA0F82E5EA19388C /* Pods-LQCommentModuleA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C255B9F7EE5DC6905987CE34F96288F8 /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleA" */;
+			buildPhases = (
+				C3C7C796A37FCBB8226F0D3E3627B220 /* Headers */,
+				78F33956A0C9E67724EFB9C620D72BEF /* Sources */,
+				E9AD2D9E5B3744F89408718D04AACB7D /* Frameworks */,
+				F92D90DD4694B800F2ACD8224DB463F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LQCommentModuleA";
+			productName = "Pods-LQCommentModuleA";
+			productReference = E283B16E74C12B0E69ABEB087E13379C /* Pods_LQCommentModuleA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDA36783C33DF913BA4CC310D3404E6F /* Pods-LQCommentModuleATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96689BB1C9CDE4663BB5AF1BDD55277F /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleATests" */;
+			buildPhases = (
+				82642D2B3A253770E769A2A340AEFCDF /* Headers */,
+				90BEB746AFDE1D26F39DB8C43557CC4B /* Sources */,
+				2DA76D11F2C5294A529E9FFE7EA39B72 /* Frameworks */,
+				4BF8DA6368B20F07848AFAD99DC0F017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527C4BB5DA307060AD4D98C1F7B9ABE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-LQCommentModuleATests";
+			productName = "Pods-LQCommentModuleATests";
+			productReference = 4AEE024C28A9C6C9CFF879A326185109 /* Pods_LQCommentModuleATests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 029C46D5EB08DAD105EE1939FE1C6044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86D9619B520DA89CA0F82E5EA19388C /* Pods-LQCommentModuleA */,
+				2D1E8416ADE75F6A1D99D41ED17385C0 /* Pods-LQCommentModuleA-LQCommentModuleAUITests */,
+				FDA36783C33DF913BA4CC310D3404E6F /* Pods-LQCommentModuleATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF8DA6368B20F07848AFAD99DC0F017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD070C41653FF0354EA40171D628CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92D90DD4694B800F2ACD8224DB463F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F33956A0C9E67724EFB9C620D72BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A844654B2A1D8A6EA1D0A1291F8A79 /* Pods-LQCommentModuleA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BEB746AFDE1D26F39DB8C43557CC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CDB3C191B3A055830C0C3A6769288B /* Pods-LQCommentModuleATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93D26D38E107C7D2A7A2B28EB97264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DA3794299A448C21FE4DE9B8272BF5 /* Pods-LQCommentModuleA-LQCommentModuleAUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527C4BB5DA307060AD4D98C1F7B9ABE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LQCommentModuleA";
+			target = F86D9619B520DA89CA0F82E5EA19388C /* Pods-LQCommentModuleA */;
+			targetProxy = 1804F178998BBB5FE8CAF813ED7BAD7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FA1396A8565B6045B28BBC5D7A6413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C447F395CE51D327A170B1038EDF2BA /* Pods-LQCommentModuleATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C7D74C88FCF0F1573E866581BFE93DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B551436DB9E8659ADE26EEDADAE8C84 /* Pods-LQCommentModuleATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DB5557854445F91C38F0C17178D157B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4E3821FB2C4397472A755BA13266B9 /* Pods-LQCommentModuleA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		993FC5ABCD27260BCA0B9A00526805AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5ED53BB6133E632E29738CBCED1569 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C44FC6A0B6E7895BAB9B26C7B7C85129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F35A0676517F02EE705E5558446104 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF4C2D9043A28492B4831E8274E3ADE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AAF128BCCCE6D34351346C37EEEBBA /* Pods-LQCommentModuleA.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE60E595A382E83296DE2A3082406D9 /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleA-LQCommentModuleAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FC6A0B6E7895BAB9B26C7B7C85129 /* Debug */,
+				993FC5ABCD27260BCA0B9A00526805AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96689BB1C9CDE4663BB5AF1BDD55277F /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7D74C88FCF0F1573E866581BFE93DA /* Debug */,
+				05FA1396A8565B6045B28BBC5D7A6413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C255B9F7EE5DC6905987CE34F96288F8 /* Build configuration list for PBXNativeTarget "Pods-LQCommentModuleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4C2D9043A28492B4831E8274E3ADE5 /* Debug */,
+				6DB5557854445F91C38F0C17178D157B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

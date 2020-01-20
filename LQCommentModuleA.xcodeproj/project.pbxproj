@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32ABBA9F90FBFEFF65FDDD49 /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B502DA077C25A3A61F856E /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */; };
+		544AE48323D5A8CE004FD00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE48223D5A8CE004FD00D /* AppDelegate.m */; };
+		544AE48623D5A8CE004FD00D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE48523D5A8CE004FD00D /* SceneDelegate.m */; };
+		544AE48923D5A8CE004FD00D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE48823D5A8CE004FD00D /* ViewController.m */; };
+		544AE48C23D5A8CE004FD00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544AE48A23D5A8CE004FD00D /* Main.storyboard */; };
+		544AE48E23D5A8D0004FD00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544AE48D23D5A8D0004FD00D /* Assets.xcassets */; };
+		544AE49123D5A8D0004FD00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544AE48F23D5A8D0004FD00D /* LaunchScreen.storyboard */; };
+		544AE49423D5A8D0004FD00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE49323D5A8D0004FD00D /* main.m */; };
+		544AE49E23D5A8D0004FD00D /* LQCommentModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE49D23D5A8D0004FD00D /* LQCommentModuleATests.m */; };
+		544AE4A923D5A8D0004FD00D /* LQCommentModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544AE4A823D5A8D0004FD00D /* LQCommentModuleAUITests.m */; };
+		631821234ECF5C90A060DD82 /* Pods_LQCommentModuleATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D542564E3706D377941416F /* Pods_LQCommentModuleATests.framework */; };
+		775CA1015C41DB5A5E0DF7CA /* Pods_LQCommentModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DDF72D9CB61A1E0EFF91C9 /* Pods_LQCommentModuleA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		544AE49A23D5A8D0004FD00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544AE47623D5A8CE004FD00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544AE47D23D5A8CE004FD00D;
+			remoteInfo = LQCommentModuleA;
+		};
+		544AE4A523D5A8D0004FD00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544AE47623D5A8CE004FD00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544AE47D23D5A8CE004FD00D;
+			remoteInfo = LQCommentModuleA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39DDF72D9CB61A1E0EFF91C9 /* Pods_LQCommentModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQCommentModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544AE47E23D5A8CE004FD00D /* LQCommentModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQCommentModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544AE48123D5A8CE004FD00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		544AE48223D5A8CE004FD00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		544AE48423D5A8CE004FD00D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		544AE48523D5A8CE004FD00D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		544AE48723D5A8CE004FD00D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		544AE48823D5A8CE004FD00D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		544AE48B23D5A8CE004FD00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		544AE48D23D5A8D0004FD00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		544AE49023D5A8D0004FD00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		544AE49223D5A8D0004FD00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544AE49323D5A8D0004FD00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		544AE49923D5A8D0004FD00D /* LQCommentModuleATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQCommentModuleATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544AE49D23D5A8D0004FD00D /* LQCommentModuleATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCommentModuleATests.m; sourceTree = "<group>"; };
+		544AE49F23D5A8D0004FD00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544AE4A423D5A8D0004FD00D /* LQCommentModuleAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQCommentModuleAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544AE4A823D5A8D0004FD00D /* LQCommentModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCommentModuleAUITests.m; sourceTree = "<group>"; };
+		544AE4AA23D5A8D0004FD00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF86A9939C0942A3CA466F1 /* Pods-LQCommentModuleATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleATests.release.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests.release.xcconfig"; sourceTree = "<group>"; };
+		78B502DA077C25A3A61F856E /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQCommentModuleA_LQCommentModuleAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D542564E3706D377941416F /* Pods_LQCommentModuleATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQCommentModuleATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C030028CA8BE5532D8AE632E /* Pods-LQCommentModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleA.release.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA.release.xcconfig"; sourceTree = "<group>"; };
+		C15CD8E9E1CC15B8BF36D38C /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E45190806BD59E7FC70EA16D /* Pods-LQCommentModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleA.debug.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleA/Pods-LQCommentModuleA.debug.xcconfig"; sourceTree = "<group>"; };
+		E4EEE01AED21343F2EFB7F68 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleA-LQCommentModuleAUITests/Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7A9DB6637AFC68CE5B2151 /* Pods-LQCommentModuleATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQCommentModuleATests.debug.xcconfig"; path = "Target Support Files/Pods-LQCommentModuleATests/Pods-LQCommentModuleATests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544AE47B23D5A8CE004FD00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775CA1015C41DB5A5E0DF7CA /* Pods_LQCommentModuleA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE49623D5A8D0004FD00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631821234ECF5C90A060DD82 /* Pods_LQCommentModuleATests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE4A123D5A8D0004FD00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ABBA9F90FBFEFF65FDDD49 /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		544AE47523D5A8CE004FD00D = {
+			isa = PBXGroup;
+			children = (
+				544AE48023D5A8CE004FD00D /* LQCommentModuleA */,
+				544AE49C23D5A8D0004FD00D /* LQCommentModuleATests */,
+				544AE4A723D5A8D0004FD00D /* LQCommentModuleAUITests */,
+				544AE47F23D5A8CE004FD00D /* Products */,
+				75333374439BF8F10521270F /* Pods */,
+				CA0FA34B66391BBD29444D22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		544AE47F23D5A8CE004FD00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				544AE47E23D5A8CE004FD00D /* LQCommentModuleA.app */,
+				544AE49923D5A8D0004FD00D /* LQCommentModuleATests.xctest */,
+				544AE4A423D5A8D0004FD00D /* LQCommentModuleAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		544AE48023D5A8CE004FD00D /* LQCommentModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				544AE48123D5A8CE004FD00D /* AppDelegate.h */,
+				544AE48223D5A8CE004FD00D /* AppDelegate.m */,
+				544AE48423D5A8CE004FD00D /* SceneDelegate.h */,
+				544AE48523D5A8CE004FD00D /* SceneDelegate.m */,
+				544AE48723D5A8CE004FD00D /* ViewController.h */,
+				544AE48823D5A8CE004FD00D /* ViewController.m */,
+				544AE48A23D5A8CE004FD00D /* Main.storyboard */,
+				544AE48D23D5A8D0004FD00D /* Assets.xcassets */,
+				544AE48F23D5A8D0004FD00D /* LaunchScreen.storyboard */,
+				544AE49223D5A8D0004FD00D /* Info.plist */,
+				544AE49323D5A8D0004FD00D /* main.m */,
+			);
+			path = LQCommentModuleA;
+			sourceTree = "<group>";
+		};
+		544AE49C23D5A8D0004FD00D /* LQCommentModuleATests */ = {
+			isa = PBXGroup;
+			children = (
+				544AE49D23D5A8D0004FD00D /* LQCommentModuleATests.m */,
+				544AE49F23D5A8D0004FD00D /* Info.plist */,
+			);
+			path = LQCommentModuleATests;
+			sourceTree = "<group>";
+		};
+		544AE4A723D5A8D0004FD00D /* LQCommentModuleAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				544AE4A823D5A8D0004FD00D /* LQCommentModuleAUITests.m */,
+				544AE4AA23D5A8D0004FD00D /* Info.plist */,
+			);
+			path = LQCommentModuleAUITests;
+			sourceTree = "<group>";
+		};
+		75333374439BF8F10521270F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E45190806BD59E7FC70EA16D /* Pods-LQCommentModuleA.debug.xcconfig */,
+				C030028CA8BE5532D8AE632E /* Pods-LQCommentModuleA.release.xcconfig */,
+				E4EEE01AED21343F2EFB7F68 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */,
+				C15CD8E9E1CC15B8BF36D38C /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */,
+				FF7A9DB6637AFC68CE5B2151 /* Pods-LQCommentModuleATests.debug.xcconfig */,
+				6AF86A9939C0942A3CA466F1 /* Pods-LQCommentModuleATests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA0FA34B66391BBD29444D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39DDF72D9CB61A1E0EFF91C9 /* Pods_LQCommentModuleA.framework */,
+				78B502DA077C25A3A61F856E /* Pods_LQCommentModuleA_LQCommentModuleAUITests.framework */,
+				9D542564E3706D377941416F /* Pods_LQCommentModuleATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		544AE47D23D5A8CE004FD00D /* LQCommentModuleA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544AE4AD23D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleA" */;
+			buildPhases = (
+				C7F5CF36E6FEC981FBC18016 /* [CP] Check Pods Manifest.lock */,
+				544AE47A23D5A8CE004FD00D /* Sources */,
+				544AE47B23D5A8CE004FD00D /* Frameworks */,
+				544AE47C23D5A8CE004FD00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQCommentModuleA;
+			productName = LQCommentModuleA;
+			productReference = 544AE47E23D5A8CE004FD00D /* LQCommentModuleA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		544AE49823D5A8D0004FD00D /* LQCommentModuleATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544AE4B023D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleATests" */;
+			buildPhases = (
+				B0DA6FB5CF554D2A367CE541 /* [CP] Check Pods Manifest.lock */,
+				544AE49523D5A8D0004FD00D /* Sources */,
+				544AE49623D5A8D0004FD00D /* Frameworks */,
+				544AE49723D5A8D0004FD00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				544AE49B23D5A8D0004FD00D /* PBXTargetDependency */,
+			);
+			name = LQCommentModuleATests;
+			productName = LQCommentModuleATests;
+			productReference = 544AE49923D5A8D0004FD00D /* LQCommentModuleATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		544AE4A323D5A8D0004FD00D /* LQCommentModuleAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544AE4B323D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleAUITests" */;
+			buildPhases = (
+				056C6BE44001A28ABF67B46B /* [CP] Check Pods Manifest.lock */,
+				544AE4A023D5A8D0004FD00D /* Sources */,
+				544AE4A123D5A8D0004FD00D /* Frameworks */,
+				544AE4A223D5A8D0004FD00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				544AE4A623D5A8D0004FD00D /* PBXTargetDependency */,
+			);
+			name = LQCommentModuleAUITests;
+			productName = LQCommentModuleAUITests;
+			productReference = 544AE4A423D5A8D0004FD00D /* LQCommentModuleAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		544AE47623D5A8CE004FD00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = liqian;
+				TargetAttributes = {
+					544AE47D23D5A8CE004FD00D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					544AE49823D5A8D0004FD00D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 544AE47D23D5A8CE004FD00D;
+					};
+					544AE4A323D5A8D0004FD00D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 544AE47D23D5A8CE004FD00D;
+					};
+				};
+			};
+			buildConfigurationList = 544AE47923D5A8CE004FD00D /* Build configuration list for PBXProject "LQCommentModuleA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 544AE47523D5A8CE004FD00D;
+			productRefGroup = 544AE47F23D5A8CE004FD00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				544AE47D23D5A8CE004FD00D /* LQCommentModuleA */,
+				544AE49823D5A8D0004FD00D /* LQCommentModuleATests */,
+				544AE4A323D5A8D0004FD00D /* LQCommentModuleAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544AE47C23D5A8CE004FD00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544AE49123D5A8D0004FD00D /* LaunchScreen.storyboard in Resources */,
+				544AE48E23D5A8D0004FD00D /* Assets.xcassets in Resources */,
+				544AE48C23D5A8CE004FD00D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE49723D5A8D0004FD00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE4A223D5A8D0004FD00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056C6BE44001A28ABF67B46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQCommentModuleA-LQCommentModuleAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DA6FB5CF554D2A367CE541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQCommentModuleATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F5CF36E6FEC981FBC18016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQCommentModuleA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544AE47A23D5A8CE004FD00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544AE48923D5A8CE004FD00D /* ViewController.m in Sources */,
+				544AE48323D5A8CE004FD00D /* AppDelegate.m in Sources */,
+				544AE49423D5A8D0004FD00D /* main.m in Sources */,
+				544AE48623D5A8CE004FD00D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE49523D5A8D0004FD00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544AE49E23D5A8D0004FD00D /* LQCommentModuleATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544AE4A023D5A8D0004FD00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544AE4A923D5A8D0004FD00D /* LQCommentModuleAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		544AE49B23D5A8D0004FD00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544AE47D23D5A8CE004FD00D /* LQCommentModuleA */;
+			targetProxy = 544AE49A23D5A8D0004FD00D /* PBXContainerItemProxy */;
+		};
+		544AE4A623D5A8D0004FD00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544AE47D23D5A8CE004FD00D /* LQCommentModuleA */;
+			targetProxy = 544AE4A523D5A8D0004FD00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		544AE48A23D5A8CE004FD00D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544AE48B23D5A8CE004FD00D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		544AE48F23D5A8D0004FD00D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544AE49023D5A8D0004FD00D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		544AE4AB23D5A8D0004FD00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		544AE4AC23D5A8D0004FD00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		544AE4AE23D5A8D0004FD00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45190806BD59E7FC70EA16D /* Pods-LQCommentModuleA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		544AE4AF23D5A8D0004FD00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C030028CA8BE5532D8AE632E /* Pods-LQCommentModuleA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		544AE4B123D5A8D0004FD00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7A9DB6637AFC68CE5B2151 /* Pods-LQCommentModuleATests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQCommentModuleA.app/LQCommentModuleA";
+			};
+			name = Debug;
+		};
+		544AE4B223D5A8D0004FD00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF86A9939C0942A3CA466F1 /* Pods-LQCommentModuleATests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQCommentModuleA.app/LQCommentModuleA";
+			};
+			name = Release;
+		};
+		544AE4B423D5A8D0004FD00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EEE01AED21343F2EFB7F68 /* Pods-LQCommentModuleA-LQCommentModuleAUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQCommentModuleA;
+			};
+			name = Debug;
+		};
+		544AE4B523D5A8D0004FD00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15CD8E9E1CC15B8BF36D38C /* Pods-LQCommentModuleA-LQCommentModuleAUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQCommentModuleAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqkin.demo.LQCommentModuleAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQCommentModuleA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		544AE47923D5A8CE004FD00D /* Build configuration list for PBXProject "LQCommentModuleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544AE4AB23D5A8D0004FD00D /* Debug */,
+				544AE4AC23D5A8D0004FD00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544AE4AD23D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544AE4AE23D5A8D0004FD00D /* Debug */,
+				544AE4AF23D5A8D0004FD00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544AE4B023D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544AE4B123D5A8D0004FD00D /* Debug */,
+				544AE4B223D5A8D0004FD00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544AE4B323D5A8D0004FD00D /* Build configuration list for PBXNativeTarget "LQCommentModuleAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544AE4B423D5A8D0004FD00D /* Debug */,
+				544AE4B523D5A8D0004FD00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 544AE47623D5A8CE004FD00D /* Project object */;
+}
